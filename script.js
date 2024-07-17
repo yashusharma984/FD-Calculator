@@ -1,4 +1,4 @@
-function calculeMaturityAmount(){
+function calculateMaturityAmount(){
 
     // Get Input values from the form elements
 
@@ -9,7 +9,7 @@ function calculeMaturityAmount(){
 
     // perform the calculation
 
-    const maturityAmount = principle *(principle * interest *tenure)/100;
+    const maturityAmount = principle *(principle*interest*tenure)/100;
 
     // Display the result
 
@@ -17,4 +17,4 @@ function calculeMaturityAmount(){
 }
 
 // Attach the event Listner to the Calulate Button
-document.getElementById('calculateBtn').addEventListener('click',calculeMaturityAmount);
+document.getElementById('calculateBtn').addEventListener('click',calculateMaturityAmount);
