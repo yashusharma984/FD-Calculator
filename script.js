@@ -13,7 +13,7 @@ function calculateMaturityAmount(){
 
     // Display the result
 
-    document.getElementById('result').innerText =`Maturity Amount : ${maturityAmount.toFixed(2)}`;
+    document.getElementById('result').innerText =`Maturity Amount: ${maturityAmount.toFixed(2)}`;
 }
 
 // Attach the event Listner to the Calulate Button
